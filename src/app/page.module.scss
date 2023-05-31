@@ -1,0 +1,29 @@
+.content{
+ position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    top:10rem;
+ 
+    padding-left: 15%;
+    padding-right: 15%;
+
+    &__heading {
+      padding: 20px 0 20px 0;
+      width: 100%;
+      font-size: 2rem;
+      font-weight: 600;
+      color: grey;
+    }
+
+    &__items {
+        width: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+}
