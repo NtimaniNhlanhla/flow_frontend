@@ -9,7 +9,7 @@ export default function Home() {
   const [listings, setListings] = useState([]);
 
   useEffect(() => {
-     fetch(`${process.env.NEXT_PUBLIC_API_UR}/listings`)
+     fetch(`${process.env.NEXT_PUBLIC_API_URL}/listings`)
          .then((response) => {
            return response.json();
          })
