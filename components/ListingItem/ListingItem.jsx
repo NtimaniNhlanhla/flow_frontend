@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 const ListingItem = ({listing}) => {
 
- console.log(`Image Url ${listing.images[0]}`)
   return (
     <div className={styles.listingItem}>
         <div className={styles.listingItem__imgContainer}>
